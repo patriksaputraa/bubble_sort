@@ -55,7 +55,7 @@ public class App extends Application {
         grid.setAlignment(Pos.TOP_CENTER);
         grid.setVgap(3);
         grid.setHgap(10);
-        grid.setGridLinesVisible(true);
+        grid.setGridLinesVisible(false);
         grid.add(titleText, 0, 0);
         addBox.getChildren().addAll(addLabel,addField,addButton);
         addBox.setSpacing(10);
